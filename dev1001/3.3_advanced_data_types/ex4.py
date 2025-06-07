@@ -14,3 +14,18 @@ product_info = {
 # 5. Change the name to "ASUS Laptop" **without** using [] or =.
 # 6. Print all key-value pairs neatly.
 
+product_info["price"] = 1250.00
+print(product_info["price"])
+product_info["brand"] = "TechCo"
+print(product_info)
+print("warranty" in product_info)
+print({product_info.get("warranty")})
+product_info["warranty"] = 2
+print(product_info)
+product_info["stock"] = 14
+print(product_info)
+product_info.update(name="ASUS Laptop")
+print(product_info)
+
+for key, value in product_info.items():
+    print(f"{key}: {value}")

@@ -14,3 +14,27 @@ cart = ["apples", "bananas", "bread"]
 # 7. Get and print a new list with only the first 2 items.
 # 8. Get and print a new list with all items EXCEPT the first one.
 # 9. Print the final cart and how many items are in it.
+
+print(cart)
+cart.append("milk")
+print(cart)
+cart.remove("bananas")
+print(cart)
+cart.insert(1, "eggs")
+print(cart)
+cart.insert(1, "apples")
+cart.insert(1, "apples")
+print(cart)
+print(cart.count("apples"))
+(cart.sort())
+print(cart)
+cart.reverse()
+print(cart)
+
+first_two = cart[:2]
+print(first_two)
+
+all_except_first = cart[1:]
+print(all_except_first)
+
+print(len(cart))

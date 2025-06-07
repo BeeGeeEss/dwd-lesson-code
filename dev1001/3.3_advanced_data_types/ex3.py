@@ -9,3 +9,10 @@ candidate_skills = {"python", "java", "communication"}
 # 3. Find out all unique skills possessed by either (required or candidate).
 # 4. Which skills are required but the candidate doesn't have.
 
+print(required_skills)
+required_skills.add("communication")
+print(required_skills)
+print((required_skills).intersection(candidate_skills))
+print((required_skills) ^ (candidate_skills))
+print((required_skills).difference(candidate_skills))
+

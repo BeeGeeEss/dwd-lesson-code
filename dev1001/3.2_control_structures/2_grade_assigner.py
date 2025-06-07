@@ -2,7 +2,7 @@
 score = 85 # Try 95, 72, 65, 40
 letter_grade = ""
 is_passing = score >= 60 # Simple pass/fail check
-has_honors = False
+has_honors = True
 
 print(f"Score: {score}")
 

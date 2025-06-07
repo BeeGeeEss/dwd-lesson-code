@@ -16,16 +16,16 @@ student = {
     "student_id": 9876,
     "courses": ["PHYS101", "MATH200", "CS101"], # Value can be a list!
     "address": { # Value can also be another dictionary.
-        street: "1 Sunset Blvd",
-        city: "Brisbane",
-        postcode: 4000
+        "street": "1 Sunset Blvd",
+        "city": "Brisbane",
+        "postcode": 4000,
     }
 }
 print(f"Student data: {student}")
 
 empty_dict = {}
 
-'''
+
 # Accessing values by key
 print(f"Student Name: {student['name']}")
 # print(student['gpa']) # Accessing non-existent key -> KeyError!
@@ -67,6 +67,3 @@ print(f"Popped student ID ({removed_value}), dict is now: {student}")
 more_info = {"grad_year": 2025, "minor": "Mathematics"}
 student.update(more_info) # Adds/updates pairs from another dict
 print(f"Updated with more info: {student}")
-
-
-'''

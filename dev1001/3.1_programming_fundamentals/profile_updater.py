@@ -19,3 +19,5 @@ print(years_experience)
 
 x, y = 5, 10 # multiple assignment
 print(x, y)
+print(x + y)
+print(x * y)
